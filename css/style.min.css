@@ -1426,6 +1426,10 @@ footer {
   flex: 1 1 auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: #333333;
 }

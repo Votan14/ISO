@@ -174,7 +174,7 @@ body._lock {
 .select__title {
   color: #000;
   border: 1px solid #e0e0e0;
-  padding: 10px 20px;
+  padding: 7px 20px;
   background-color: #fff;
   cursor: pointer;
   border-radius: 4px;
@@ -192,7 +192,6 @@ body._lock {
   flex-direction: row-reverse;
 }
 .select__value span {
-  height: 1em;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 1;
@@ -1159,8 +1158,21 @@ footer {
   background: #fff;
 }
 
+.about-left {
+  flex: 0 0 48%;
+}
+.about-left img {
+  max-width: 100%;
+}
+
 .about-left._left {
-  padding-left: 20vw;
+  padding-left: 10vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about-right img {
+  max-width: 100%;
 }
 
 .about-right__title {
